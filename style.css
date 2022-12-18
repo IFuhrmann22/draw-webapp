@@ -1,0 +1,35 @@
+
+
+body {
+  display: flexbox;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* h1 {
+  margin: 4rem auto;
+  text-align: center;
+} */
+
+div {
+  margin: 20% auto;
+  text-align: center;
+  justify-content: center;
+}
+
+div>button {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-color: 1px solid white;
+  border-radius: 8px;
+}
+
+div>p {
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}

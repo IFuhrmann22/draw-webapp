@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Draw App</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function draw () {
+      const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      let c = Math.floor(Math.random() * chars.length);
+      const nums = '0123456789';
+      let n = Math.floor(Math.random() * nums.length);
+      let result = chars[c] + nums[n] + nums[n];
+      return (result);
+    };
+  </script>
+ 
+</head>
+<body>
+<div>
+  <button onclick="document.getElementById('result').innerText = draw()">Draw</button>
+  <p id="result"></p>
+</div>
+
+
+</body>
+</html>
